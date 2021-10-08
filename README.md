@@ -11,7 +11,7 @@ Status
 ------
 Version: 1.22
 
-ImGui version: 1.74
+ImGui version: 1.84 (docking branch)
 
 Supported engine version: 4.26*
 
