@@ -90,6 +90,10 @@ FImGuiContextProxy::FImGuiContextProxy(const FString& InName, int32 InContextInd
 	// Set session data storage.
 	IO.IniFilename = IniFilename.c_str();
 
+	// Activate Docking feature
+	// Is it the right place?
+	IO.ConfigFlags |= ImGuiConfigFlags_DockingEnable;
+
 	// Start with the default canvas size.
 	ResetDisplaySize();
 	IO.DisplaySize = { DisplaySize.X, DisplaySize.Y };
